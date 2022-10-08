@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".fragment.HomeFragment">
+
+    <Button
+        android:id="@+id/btn_sotuvchi"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/sotuvchi"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_xaridor"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/xaridor"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_buyurtma"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/buyurtma"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</LinearLayout>

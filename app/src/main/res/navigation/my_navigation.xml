@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        app:navGraph="@navigation/my_navigation"
+        app:defaultNavHost="true"
+        android:id="@+id/homeFragment"
+        android:name="space.beka.dbreference.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/sotuvFragment"
+        android:name="space.beka.dbreference.fragment.SotuvFragment"
+        android:label="fragment_sotuv"
+        tools:layout="@layout/fragment_sotuv" />
+    <fragment
+        android:id="@+id/xaridFragment"
+        android:name="space.beka.dbreference.fragment.XaridFragment"
+        android:label="fragment_xarid"
+        tools:layout="@layout/fragment_xarid" />
+    <fragment
+        android:id="@+id/buyurtmaFragment"
+        android:name="space.beka.dbreference.fragment.BuyurtmaFragment"
+        android:label="fragment_buyurtma"
+        tools:layout="@layout/fragment_buyurtma" />
+</navigation>
